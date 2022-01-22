@@ -1,369 +1,364 @@
-                                                                                                        body {
-                                                                                                            font-family: "Knewave", cursive;
-                                                                                                            font-family: "Roboto", sans-serif;
-                                                                                                            background-repeat: no-repeat;
-                                                                                                            min-height: 100vh;
-                                                                                                            display: flex;
-                                                                                                            flex-direction: column;
-                                                                                                            background: black;
-                                                                                                        }
-                                                                                                        
-                                                                                                         :root {
-                                                                                                            --font-color: #494ca2;
-                                                                                                            --primary-color: #8186d5;
-                                                                                                            --secondary-color: #faedf0;
-                                                                                                            --tietary-color: #EFC6CB;
-                                                                                                            --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
-                                                                                                        }
-                                                                                                        
-                                                                                                        h1,
-                                                                                                        h2,
-                                                                                                        h3,
-                                                                                                        p {
-                                                                                                            color: var(--font-color);
-                                                                                                            text-align: center;
-                                                                                                            display: block;
-                                                                                                            position: relative;
-                                                                                                            z-index: 2;
-                                                                                                        }
-                                                                                                        
-                                                                                                        img {
-                                                                                                            max-width: 100%;
-                                                                                                        }
-                                                                                                        
-                                                                                                        h1 {
-                                                                                                            font-size: 96px;
-                                                                                                        }
-                                                                                                        /* Home page: */
-                                                                                                        /* intro on home page: */
-                                                                                                        
-                                                                                                        .hero {
-                                                                                                            display: block;
-                                                                                                            justify-content: center;
-                                                                                                            text-align: center;
-                                                                                                            position: relative;
-                                                                                                            padding: 160px, 20px;
-                                                                                                            z-index: 0;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .intro-image {
-                                                                                                            position: absolute;
-                                                                                                            z-index: 0;
-                                                                                                            width: 80%;
-                                                                                                            left: 50%;
-                                                                                                            transform: translate(-50%, -2%);
-                                                                                                            z-index: 0;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .about-contact-links {
-                                                                                                            display: flex;
-                                                                                                            margin-top: 40px;
-                                                                                                            justify-content: center;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .about-contact-links a {
-                                                                                                            margin: 20px;
-                                                                                                            border-radius: 4px;
-                                                                                                            padding: 20px 15px;
-                                                                                                            text-decoration: none;
-                                                                                                            text-transform: capitalize;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .contact-link {
-                                                                                                            background: var(--primary-color);
-                                                                                                            box-shadow: var(--box-shadow);
-                                                                                                            color: var(--secondary-color);
-                                                                                                            border: 1px solid var(--tietary-color);
-                                                                                                            position: relative;
-                                                                                                            z-index: 1;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .about-link {
-                                                                                                            color: var(--font-color);
-                                                                                                            border: 1px solid var(--primary-color);
-                                                                                                            background-color: var(--tietary-color);
-                                                                                                            position: relative;
-                                                                                                            z-index: 1;
-                                                                                                        }
-                                                                                                        /* my projects on main index page*/
-                                                                                                        
-                                                                                                        .my-projects {
-                                                                                                            text-decoration: underline;
-                                                                                                            text-transform: uppercase;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .project-parent {
-                                                                                                            height: 300px;
-                                                                                                            display: flex;
-                                                                                                            align-items: center;
-                                                                                                            justify-content: center;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .child-project {
-                                                                                                            background-color: var(--tietary-color);
-                                                                                                            width: 800px;
-                                                                                                            height: 180px;
-                                                                                                            padding: 20px 15px;
-                                                                                                            border-radius: 25px;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .featured-projects .container {
-                                                                                                            display: flex;
-                                                                                                            flex-direction: row;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .landPageTitle h3,
-                                                                                                        .weatherAppTitle h3,
-                                                                                                        .Croissant-PageTitle h3 {
-                                                                                                            color: var(--tietary-color);
-                                                                                                            text-decoration: underline;
-                                                                                                            text-transform: uppercase;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .landingPageButton,
-                                                                                                        .weatherAppPageButton,
-                                                                                                        .Croissant-PageButton {
-                                                                                                            background: var(--primary-color);
-                                                                                                            box-shadow: var(--box-shadow);
-                                                                                                            color: var(--secondary-color);
-                                                                                                            border: 1px solid var(--tietary-color);
-                                                                                                            position: relative;
-                                                                                                            z-index: 1;
-                                                                                                            border-radius: 25px;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .landingPageButton a,
-                                                                                                        .weatherAppPageButton a,
-                                                                                                        .Croissant-PageButton a {
-                                                                                                            color: var(--secondary-color);
-                                                                                                            text-transform: uppercase;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .fixed {
-                                                                                                            bottom: 0;
-                                                                                                            left: 0;
-                                                                                                            width: 100%;
-                                                                                                            font-size: 10px;
-                                                                                                            text-align: center;
-                                                                                                            padding: 16px;
-                                                                                                            color: var(--secondary-color);
-                                                                                                            position: relative;
-                                                                                                            z-index: 1;
-                                                                                                        }
-                                                                                                        /* about page: */
-                                                                                                        /* my skills section: */
-                                                                                                        
-                                                                                                        .about-paragraph {
-                                                                                                            display: flex;
-                                                                                                            justify-content: space-between;
-                                                                                                            margin: 10px 10px;
-                                                                                                            padding: 10px 5px;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .content-link {
-                                                                                                            margin: 20px;
-                                                                                                            border-radius: 4px;
-                                                                                                            padding: 20px 15px;
-                                                                                                            text-decoration: none;
-                                                                                                            text-transform: capitalize;
-                                                                                                            display: flex;
-                                                                                                            justify-content: center;
-                                                                                                            color: var(--primary-color);
-                                                                                                            text-decoration: none;
-                                                                                                            border: 1px solid var(--primary-color);
-                                                                                                        }
-                                                                                                        
-                                                                                                        .speciality {
-                                                                                                            color: var(--primary-color);
-                                                                                                            text-decoration: underline;
-                                                                                                            font-weight: bolder;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .location {
-                                                                                                            color: var(--tietary-color);
-                                                                                                            font-weight: bolder;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .skills-parent {
-                                                                                                            height: 100px;
-                                                                                                            display: flex;
-                                                                                                            align-items: center;
-                                                                                                            justify-content: center;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .skills-project {
-                                                                                                            background-color: var(--secondary-color);
-                                                                                                            width: 800px;
-                                                                                                            height: 100px;
-                                                                                                            padding: 20px 15px;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .about-images {
-                                                                                                            height: 280px;
-                                                                                                            position: absolute;
-                                                                                                            z-index: 1;
-                                                                                                            width: 80%;
-                                                                                                            left: 50%;
-                                                                                                            transform: translate(-50%, -2%);
-                                                                                                        }
-                                                                                                        
-                                                                                                        .about-paragraphs {
-                                                                                                            display: flex;
-                                                                                                            justify-content: space-evenly;
-                                                                                                            margin: 30px 50px;
-                                                                                                            padding: 50px 70px;
-                                                                                                            background-color: var(--tietary-color);
-                                                                                                            border-radius: 25px;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .about-paragraphs p {
-                                                                                                            color: var(--primary-color);
-                                                                                                            line-height: 2;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .interests {
-                                                                                                            color: var(--font-color);
-                                                                                                            text-decoration: underline;
-                                                                                                        }
-                                                                                                        /*contact image*/
-                                                                                                        
-                                                                                                        .contact-image {
-                                                                                                            position: absolute;
-                                                                                                            z-index: -1;
-                                                                                                            width: 100%;
-                                                                                                            height: 100%;
-                                                                                                            left: 50%;
-                                                                                                            transform: translate(-30%, 5%);
-                                                                                                        }
-                                                                                                        /* Small devices (landscape phones, 576px and up)*/
-                                                                                                        
-                                                                                                        @media (max-width: 576px) {
-                                                                                                            h1 {
-                                                                                                                font-size: 50px;
-                                                                                                            }
-                                                                                                            p {
-                                                                                                                font-size: 12px;
-                                                                                                            }
-                                                                                                        }
-                                                                                                        /* Medium devices (tablets, 768px and up)*/
-                                                                                                        
-                                                                                                        @media (max-width: 431px) {
-                                                                                                            h1 {
-                                                                                                                font-size: 30px;
-                                                                                                            }
-                                                                                                            h3 {
-                                                                                                                font-size: 15px;
-                                                                                                            }
-                                                                                                            p {
-                                                                                                                font-size: 10px;
-                                                                                                            }
-                                                                                                            footer {
-                                                                                                                font-size: 5px;
-                                                                                                            }
-                                                                                                        }
-                                                                                                        
-                                                                                                        @media (min-width: 575px) {
-                                                                                                            p {
-                                                                                                                font-size: 12px;
-                                                                                                            }
-                                                                                                        }
-                                                                                                        
-                                                                                                        @media (max-width: 740px) {
-                                                                                                            .skills {
-                                                                                                                display: none;
-                                                                                                            }
-                                                                                                            .skills-learnt {
-                                                                                                                display: none;
-                                                                                                            }
-                                                                                                            h1 {
-                                                                                                                font-size: 30px;
-                                                                                                            }
-                                                                                                            h2 {
-                                                                                                                font-size: 15px;
-                                                                                                            }
-                                                                                                            p {
-                                                                                                                font-size: 10px;
-                                                                                                            }
-                                                                                                            .about-paragraphs {
-                                                                                                                flex-direction: column;
-                                                                                                                text-align: center;
-                                                                                                            }
-                                                                                                        }
-                                                                                                        
-                                                                                                        .contact-contactpage {
-                                                                                                            position: relative;
-                                                                                                            z-index: 1;
-                                                                                                        }
-                                                                                                        /* stars background*/
-                                                                                                        
-                                                                                                        @keyframes move-background {
-                                                                                                            from {
-                                                                                                                -webkit-transform: translate3d(0px, 0px, 0px);
-                                                                                                            }
-                                                                                                            to {
-                                                                                                                -webkit-transform: translate3d(1000px, 0px, 0px);
-                                                                                                            }
-                                                                                                        }
-                                                                                                        
-                                                                                                        @-webkit-keyframes move-background {
-                                                                                                            from {
-                                                                                                                -webkit-transform: translate3d(0px, 0px, 0px);
-                                                                                                            }
-                                                                                                            to {
-                                                                                                                -webkit-transform: translate3d(1000px, 0px, 0px);
-                                                                                                            }
-                                                                                                        }
-                                                                                                        
-                                                                                                        @-moz-keyframes move-background {
-                                                                                                            from {
-                                                                                                                -webkit-transform: translate3d(0px, 0px, 0px);
-                                                                                                            }
-                                                                                                            to {
-                                                                                                                -webkit-transform: translate3d(1000px, 0px, 0px);
-                                                                                                            }
-                                                                                                        }
-                                                                                                        
-                                                                                                        @-webkit-keyframes move-background {
-                                                                                                            from {
-                                                                                                                -webkit-transform: translate3d(0px, 0px, 0px);
-                                                                                                            }
-                                                                                                            to {
-                                                                                                                -webkit-transform: translate3d(1000px, 0px, 0px);
-                                                                                                            }
-                                                                                                        }
-                                                                                                        
-                                                                                                        .background-container {
-                                                                                                            position: absolute;
-                                                                                                            top: 0;
-                                                                                                            left: 0;
-                                                                                                            bottom: 0;
-                                                                                                            right: 0;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .stars {
-                                                                                                            background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
-                                                                                                            position: absolute;
-                                                                                                            top: 0;
-                                                                                                            bottom: 0;
-                                                                                                            left: 0;
-                                                                                                            right: 0;
-                                                                                                            display: block;
-                                                                                                            z-index: -1;
-                                                                                                        }
-                                                                                                        
-                                                                                                        .twinkling {
-                                                                                                            width: 10000px;
-                                                                                                            height: 100%;
-                                                                                                            background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
-                                                                                                            background-size: 1000px 1000px;
-                                                                                                            position: absolute;
-                                                                                                            right: 0;
-                                                                                                            top: 0;
-                                                                                                            bottom: 0;
-                                                                                                            z-index: -1;
-                                                                                                            -moz-animation: move-background 70s linear infinite;
-                                                                                                            -ms-animation: move-background 70s linear infinite;
-                                                                                                            -o-animation: move-background 70s linear infinite;
-                                                                                                            -webkit-animation: move-background 70s linear infinite;
-                                                                                                            animation: move-background 70s linear infinite;
-                                                                                                        }
+                                                                                                                                body {
+                                                                                                                                font-family: "Knewave", cursive;
+                                                                                                                                font-family: "Roboto", sans-serif;
+                                                                                                                                background-repeat: no-repeat;
+                                                                                                                                min-height: 100vh;
+                                                                                                                                display: flex;
+                                                                                                                                flex-direction: column;
+                                                                                                                                background: black;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                             :root {
+                                                                                                                                --font-color: #494ca2;
+                                                                                                                                --primary-color: #8186d5;
+                                                                                                                                --secondary-color: #faedf0;
+                                                                                                                                --tietary-color: #EFC6CB;
+                                                                                                                                --box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            h1,
+                                                                                                                            h2,
+                                                                                                                            h3,
+                                                                                                                            p {
+                                                                                                                                color: var(--font-color);
+                                                                                                                                text-align: center;
+                                                                                                                                display: block;
+                                                                                                                                position: relative;
+                                                                                                                                z-index: 2;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            img {
+                                                                                                                                max-width: 100%;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            h1 {
+                                                                                                                                font-size: 96px;
+                                                                                                                            }
+                                                                                                                            /* Home page: */
+                                                                                                                            /* intro on home page: */
+                                                                                                                            
+                                                                                                                            .hero {
+                                                                                                                                display: block;
+                                                                                                                                justify-content: center;
+                                                                                                                                text-align: center;
+                                                                                                                                position: relative;
+                                                                                                                                padding: 160px, 20px;
+                                                                                                                                z-index: 0;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .intro-image {
+                                                                                                                                position: absolute;
+                                                                                                                                z-index: 0;
+                                                                                                                                width: 80%;
+                                                                                                                                left: 50%;
+                                                                                                                                transform: translate(-50%, -2%);
+                                                                                                                                z-index: 0;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .about-contact-links {
+                                                                                                                                display: flex;
+                                                                                                                                margin-top: 40px;
+                                                                                                                                justify-content: center;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .about-contact-links a {
+                                                                                                                                margin: 20px;
+                                                                                                                                border-radius: 4px;
+                                                                                                                                padding: 20px 15px;
+                                                                                                                                text-decoration: none;
+                                                                                                                                text-transform: capitalize;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .contact-link {
+                                                                                                                                background: var(--primary-color);
+                                                                                                                                box-shadow: var(--box-shadow);
+                                                                                                                                color: var(--secondary-color);
+                                                                                                                                border: 1px solid var(--tietary-color);
+                                                                                                                                position: relative;
+                                                                                                                                z-index: 1;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .about-link {
+                                                                                                                                color: var(--font-color);
+                                                                                                                                border: 1px solid var(--primary-color);
+                                                                                                                                background-color: var(--tietary-color);
+                                                                                                                                position: relative;
+                                                                                                                                z-index: 1;
+                                                                                                                            }
+                                                                                                                            /* my projects on main index page*/
+                                                                                                                            
+                                                                                                                            .my-projects {
+                                                                                                                                text-decoration: underline;
+                                                                                                                                text-transform: uppercase;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .project-parent {
+                                                                                                                                height: 300px;
+                                                                                                                                display: flex;
+                                                                                                                                align-items: center;
+                                                                                                                                justify-content: center;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .child-project {
+                                                                                                                                background-color: var(--tietary-color);
+                                                                                                                                width: 800px;
+                                                                                                                                height: 180px;
+                                                                                                                                padding: 20px 15px;
+                                                                                                                                border-radius: 25px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .featured-projects .container {
+                                                                                                                                display: flex;
+                                                                                                                                flex-direction: row;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .landPageTitle h3,
+                                                                                                                            .weatherAppTitle h3,
+                                                                                                                            .Croissant-PageTitle h3 {
+                                                                                                                                color: var(--tietary-color);
+                                                                                                                                text-decoration: underline;
+                                                                                                                                text-transform: uppercase;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .landingPageButton,
+                                                                                                                            .weatherAppPageButton,
+                                                                                                                            .Croissant-PageButton {
+                                                                                                                                background: var(--primary-color);
+                                                                                                                                box-shadow: var(--box-shadow);
+                                                                                                                                color: var(--secondary-color);
+                                                                                                                                border: 1px solid var(--tietary-color);
+                                                                                                                                position: relative;
+                                                                                                                                z-index: 1;
+                                                                                                                                border-radius: 25px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .landingPageButton a,
+                                                                                                                            .weatherAppPageButton a,
+                                                                                                                            .Croissant-PageButton a {
+                                                                                                                                color: var(--secondary-color);
+                                                                                                                                text-transform: uppercase;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .fixed {
+                                                                                                                                bottom: 0;
+                                                                                                                                left: 0;
+                                                                                                                                width: 100%;
+                                                                                                                                font-size: 10px;
+                                                                                                                                text-align: center;
+                                                                                                                                padding: 16px;
+                                                                                                                                color: var(--secondary-color);
+                                                                                                                                position: relative;
+                                                                                                                                z-index: 1;
+                                                                                                                            }
+                                                                                                                            /* about page: */
+                                                                                                                            /* my skills section: */
+                                                                                                                            
+                                                                                                                            .about-paragraph {
+                                                                                                                                display: flex;
+                                                                                                                                justify-content: space-between;
+                                                                                                                                margin: 10px 10px;
+                                                                                                                                padding: 10px 5px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .content-link {
+                                                                                                                                margin: 20px;
+                                                                                                                                border-radius: 4px;
+                                                                                                                                padding: 20px 15px;
+                                                                                                                                text-decoration: none;
+                                                                                                                                text-transform: capitalize;
+                                                                                                                                display: flex;
+                                                                                                                                justify-content: center;
+                                                                                                                                color: var(--primary-color);
+                                                                                                                                text-decoration: none;
+                                                                                                                                border: 1px solid var(--primary-color);
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .speciality {
+                                                                                                                                color: var(--primary-color);
+                                                                                                                                text-decoration: underline;
+                                                                                                                                font-weight: bolder;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .location {
+                                                                                                                                color: var(--tietary-color);
+                                                                                                                                font-weight: bolder;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .skills-parent {
+                                                                                                                                height: 100px;
+                                                                                                                                display: flex;
+                                                                                                                                align-items: center;
+                                                                                                                                justify-content: center;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .skills-project {
+                                                                                                                                background-color: var(--secondary-color);
+                                                                                                                                width: 800px;
+                                                                                                                                height: 100px;
+                                                                                                                                padding: 20px 15px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .about-images {
+                                                                                                                                height: 280px;
+                                                                                                                                position: absolute;
+                                                                                                                                z-index: 1;
+                                                                                                                                width: 80%;
+                                                                                                                                left: 50%;
+                                                                                                                                transform: translate(-50%, -2%);
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .about-paragraphs {
+                                                                                                                                display: flex;
+                                                                                                                                justify-content: space-evenly;
+                                                                                                                                margin: 30px 50px;
+                                                                                                                                padding: 50px 70px;
+                                                                                                                                background-color: var(--tietary-color);
+                                                                                                                                border-radius: 25px;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .about-paragraphs p {
+                                                                                                                                color: var(--primary-color);
+                                                                                                                                line-height: 2;
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .interests {
+                                                                                                                                color: var(--font-color);
+                                                                                                                                text-decoration: underline;
+                                                                                                                            }
+                                                                                                                            /*contact image*/
+                                                                                                                            
+                                                                                                                            .contact-image {
+                                                                                                                                position: absolute;
+                                                                                                                                z-index: -1;
+                                                                                                                                width: 100%;
+                                                                                                                                height: 100%;
+                                                                                                                                left: 50%;
+                                                                                                                                transform: translate(-30%, 5%);
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            .contact-contactpage {
+                                                                                                                                position: relative;
+                                                                                                                                z-index: 1;
+                                                                                                                            }
+                                                                                                                            /* Small devices (landscape phones, 576px and up)*/
+                                                                                                                            
+                                                                                                                            @media (max-width: 576px) {
+                                                                                                                                h1 {
+                                                                                                                                    font-size: 50px;
+                                                                                                                                }
+                                                                                                                                p {
+                                                                                                                                    font-size: 12px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            /* Medium devices (tablets, 768px and up)*/
+                                                                                                                            
+                                                                                                                            @media (max-width: 431px) {
+                                                                                                                                h1 {
+                                                                                                                                    font-size: 30px;
+                                                                                                                                }
+                                                                                                                                h3 {
+                                                                                                                                    font-size: 15px;
+                                                                                                                                }
+                                                                                                                                p {
+                                                                                                                                    font-size: 10px;
+                                                                                                                                }
+                                                                                                                                footer {
+                                                                                                                                    font-size: 5px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media (min-width: 575px) {
+                                                                                                                                p {
+                                                                                                                                    font-size: 12px;
+                                                                                                                                }
+                                                                                                                            }
+                                                                                                                            
+                                                                                                                            @media (max-width: 740px) {
+                                                                                                                                .skills {
+                                                                                                                                    display: none;
+                                                                                                                                }
+                                                                                                                                .skills-learnt {
+                                                                                                                                    display: none;
+                                                                                                                                }
+                                                                                                                                h1 {
+                                                                                                                                    font-size: 30px;
+                                                                                                                                }
+                                                                                                                                h2 {
+                                                                                                                                    font-size: 15px;
+                                                                                                                                }
+                                                                                                                                p {
+                                                                                                                                    font-size: 10px;
+                                                                                                                                }
+                                                                                                                                .about-paragraphs {
+                                                                                                                                    flex-direction: column;
+                                                                                                                                    text-align: center;
+                                                                                                                                }
+                                                                                                                                .contact-image {
+                                                                                                                                    display: none;
+                                                                                                                                }
+                                                                                                                                /* stars background*/
+                                                                                                                                @keyframes move-background {
+                                                                                                                                    from {
+                                                                                                                                        -webkit-transform: translate3d(0px, 0px, 0px);
+                                                                                                                                    }
+                                                                                                                                    to {
+                                                                                                                                        -webkit-transform: translate3d(1000px, 0px, 0px);
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                @-webkit-keyframes move-background {
+                                                                                                                                    from {
+                                                                                                                                        -webkit-transform: translate3d(0px, 0px, 0px);
+                                                                                                                                    }
+                                                                                                                                    to {
+                                                                                                                                        -webkit-transform: translate3d(1000px, 0px, 0px);
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                @-moz-keyframes move-background {
+                                                                                                                                    from {
+                                                                                                                                        -webkit-transform: translate3d(0px, 0px, 0px);
+                                                                                                                                    }
+                                                                                                                                    to {
+                                                                                                                                        -webkit-transform: translate3d(1000px, 0px, 0px);
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                @-webkit-keyframes move-background {
+                                                                                                                                    from {
+                                                                                                                                        -webkit-transform: translate3d(0px, 0px, 0px);
+                                                                                                                                    }
+                                                                                                                                    to {
+                                                                                                                                        -webkit-transform: translate3d(1000px, 0px, 0px);
+                                                                                                                                    }
+                                                                                                                                }
+                                                                                                                                .background-container {
+                                                                                                                                    position: absolute;
+                                                                                                                                    top: 0;
+                                                                                                                                    left: 0;
+                                                                                                                                    bottom: 0;
+                                                                                                                                    right: 0;
+                                                                                                                                }
+                                                                                                                                .stars {
+                                                                                                                                    background: black url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/stars.png) repeat;
+                                                                                                                                    position: absolute;
+                                                                                                                                    top: 0;
+                                                                                                                                    bottom: 0;
+                                                                                                                                    left: 0;
+                                                                                                                                    right: 0;
+                                                                                                                                    display: block;
+                                                                                                                                    z-index: -1;
+                                                                                                                                }
+                                                                                                                                .twinkling {
+                                                                                                                                    width: 10000px;
+                                                                                                                                    height: 100%;
+                                                                                                                                    background: transparent url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1231630/twinkling.png") repeat;
+                                                                                                                                    background-size: 1000px 1000px;
+                                                                                                                                    position: absolute;
+                                                                                                                                    right: 0;
+                                                                                                                                    top: 0;
+                                                                                                                                    bottom: 0;
+                                                                                                                                    z-index: -1;
+                                                                                                                                    -moz-animation: move-background 70s linear infinite;
+                                                                                                                                    -ms-animation: move-background 70s linear infinite;
+                                                                                                                                    -o-animation: move-background 70s linear infinite;
+                                                                                                                                    -webkit-animation: move-background 70s linear infinite;
+                                                                                                                                    animation: move-background 70s linear infinite;
+                                                                                                                                }
