@@ -147,6 +147,8 @@
                                                                                                             text-align: center;
                                                                                                             padding: 16px;
                                                                                                             color: var(--secondary-color);
+                                                                                                            position: relative;
+                                                                                                            z-index: 1;
                                                                                                         }
                                                                                                         /* about page: */
                                                                                                         /* my skills section: */
