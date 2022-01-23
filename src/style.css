@@ -103,6 +103,16 @@
                                                                                                                                                     border-radius: 25px;
                                                                                                                                                 }
                                                                                                                                                 
+                                                                                                                                                .cards {
+                                                                                                                                                    display: flex;
+                                                                                                                                                    justify-content: center;
+                                                                                                                                                }
+                                                                                                                                                
+                                                                                                                                                .card {
+                                                                                                                                                    background-color: rgba(73, 76, 162, 0.2);
+                                                                                                                                                    border-radius: 25px;
+                                                                                                                                                }
+                                                                                                                                                
                                                                                                                                                 .featured-projects .container {
                                                                                                                                                     display: flex;
                                                                                                                                                     flex-direction: row;
