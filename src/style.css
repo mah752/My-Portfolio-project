@@ -96,7 +96,8 @@
                                                                                                                                                 }
                                                                                                                                                 
                                                                                                                                                 .child-project {
-                                                                                                                                                    background-color: var(--tietary-color);
+                                                                                                                                                    background-color: rgba(73, 76, 162, 0.2);
+                                                                                                                                                    ;
                                                                                                                                                     width: 800px;
                                                                                                                                                     height: 180px;
                                                                                                                                                     padding: 20px 15px;
@@ -214,7 +215,7 @@
                                                                                                                                                     justify-content: space-evenly;
                                                                                                                                                     margin: 30px 50px;
                                                                                                                                                     padding: 50px 70px;
-                                                                                                                                                    background-color: var(--secondary-color);
+                                                                                                                                                    background-color: rgba(73, 76, 162, 0.2);
                                                                                                                                                     border-radius: 25px;
                                                                                                                                                 }
                                                                                                                                                 
